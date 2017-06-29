@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    background: rgba(4, 0, 255, 1);
+	  background: -webkit-linear-gradient(left top, rgba(0,0,0,0), rgba(4, 0, 255, 1));
+  	background: -o-linear-gradient(bottom right, rgba(0,0,0,0), rgba(4, 0, 255, 1));
+  	background: -moz-linear-gradient(bottom right, rgba(0,0,0,0), rgba(4, 0, 255, 1));
+    font-size: 20px;
+    color: white;
+}
+nav {
+    padding: 10px 10px 10px 10px;
+  }
+footer {
+  background: -webkit-linear-gradient(left top, rgba(0,0,0,0), rgba(74, 91, 171, 1));
+  background: -o-linear-gradient(bottom right, rgba(0,0,0,0), rgba(74, 91, 171, 1));
+  background: -moz-linear-gradient(bottom right, rgba(0,0,0,0), rgba(74, 91, 171, 1));
+  background: linear-gradient(to bottom right, rgba(0,0,0,0), rgba(74, 91, 171, 1));
+  padding: 10px 10px 10px 10px;
+	color: white;
+	font-size: 20px;
+	letter-spacing: .08em;
+	font-weight: 500;
+
+
+}
+.main-page {
+  margin: 0px 200px 0px 200px;
+  border: 2px inset blue;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+section {
+  background: -webkit-linear-gradient(left top, rgba(0,0,0,0), rgba(74, 91, 171, 1));
+  background: -o-linear-gradient(bottom right, rgba(0,0,0,0), rgba(74, 91, 171, 1));
+  background: -moz-linear-gradient(bottom right, rgba(0,0,0,0), rgba(74, 91, 171, 1));
+  background: linear-gradient(to bottom right, rgba(0,0,0,0), rgba(74, 91, 171, 1));
+  padding: 10px 10px 10px 10px;
+}
+ul {
+  display: inline-grid;
+}
+h1 {
+  font: arial;
+}
+p {
+  font: arial;
+}
+h2 {
+  font: arial;
+}
