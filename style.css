@@ -1,51 +1,86 @@
 body {
-    text-align: center;
-    background: rgba(4, 0, 255, 1);
-	  background: -webkit-linear-gradient(left top, rgba(0,0,0,0), rgba(4, 0, 255, 1));
-  	background: -o-linear-gradient(bottom right, rgba(0,0,0,0), rgba(4, 0, 255, 1));
-  	background: -moz-linear-gradient(bottom right, rgba(0,0,0,0), rgba(4, 0, 255, 1));
-    font-size: 20px;
-    color: white;
+  background-color: #335c80;
+  background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
+  min-height: inherit;
+  min-width: inherit;
 }
-nav {
-    padding: 10px 10px 10px 10px;
-  }
-footer {
-  background: -webkit-linear-gradient(left top, rgba(0,0,0,0), rgba(74, 91, 171, 1));
-  background: -o-linear-gradient(bottom right, rgba(0,0,0,0), rgba(74, 91, 171, 1));
-  background: -moz-linear-gradient(bottom right, rgba(0,0,0,0), rgba(74, 91, 171, 1));
-  background: linear-gradient(to bottom right, rgba(0,0,0,0), rgba(74, 91, 171, 1));
-  padding: 10px 10px 10px 10px;
-	color: white;
-	font-size: 20px;
-	letter-spacing: .08em;
-	font-weight: 500;
 
-
+.linkedin {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
 }
-.main-page {
-  margin: 0px 200px 0px 200px;
-  border: 2px inset blue;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
+.linkedin:hover {
+  text-decoration: underline;
 }
-section {
-  background: -webkit-linear-gradient(left top, rgba(0,0,0,0), rgba(74, 91, 171, 1));
-  background: -o-linear-gradient(bottom right, rgba(0,0,0,0), rgba(74, 91, 171, 1));
-  background: -moz-linear-gradient(bottom right, rgba(0,0,0,0), rgba(74, 91, 171, 1));
-  background: linear-gradient(to bottom right, rgba(0,0,0,0), rgba(74, 91, 171, 1));
-  padding: 10px 10px 10px 10px;
-}
-ul {
-  display: inline-grid;
-}
-h1 {
-  font: arial;
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-top: 95px;
 }
 p {
-  font: arial;
+  margin-top: 75px;
+  font-size: 24px;
+  color: white;
+  text-align: center;
 }
-h2 {
-  font: arial;
+.project1 {
+  height: 250px;
+  width: 250px;
+  background-image: url(img/space.jp);
+  background-size: cover;
+}
+.project1:hover {
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         0px 3px 3px 3px black;
+}
+.project2 {
+  height: 250px;
+  width: 250px;
+}
+.project2:hover {
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         0px 3px 3px 3px black;
+}
+.project3 {
+  height: 250px;
+  width: 250px;
+}
+.project3:hover {
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         0px 3px 3px 3px black;
+}
+.project4 {
+  height: 250px;
+  width: 250px;
+}
+.project4:hover {
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         0px 3px 3px 3px black;
+}
+.main-page {
+  height: 450px;
+  width: 1250px;
+  margin: 0 auto;
+  background-color: #335c80;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  border: 2px dotted black;
+}
+h1 {
+  text-align: center;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 100px;
+}
+footer {
+  padding-top: 20px;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
 }
