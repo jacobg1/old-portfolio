@@ -7,7 +7,7 @@ body {
 .linkedin {
   text-decoration: none;
   font-weight: bold;
-  color: white;
+  color: #d9d9e8;
 }
 .linkedin:hover {
   text-decoration: underline;
@@ -21,9 +21,14 @@ body {
   font-size: 24px;
 }
 p {
-  color: white;
+  color: #d9d9e8;
   text-align: center;
 }
+.tags {
+  margin-top: 115px;
+  font-family: 'Black Ops One', cursive;
+}
+
 .project1 {
   height: 275px;
   width: 275px;
@@ -74,9 +79,10 @@ p {
   margin: auto;
   background-color: #335c80;
   background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
-  border: 2px inset black;
+  border: 5px inset #d9d9e8;
 }
 h1 {
+  color: #d9d9e8;
   margin: 40px 0px 25px 0px;
   text-align: center;
   font-family: 'Bungee Shade', cursive;
