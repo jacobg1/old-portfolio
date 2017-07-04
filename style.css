@@ -7,7 +7,7 @@ body {
 .linkedin {
   text-decoration: none;
   font-weight: bold;
-  color: #d9d9e8;
+  color: #fff6b5;
 }
 .linkedin:hover {
   text-decoration: underline;
@@ -83,13 +83,28 @@ p {
 }
 h1 {
   color: #d9d9e8;
-  margin: 40px 0px 25px 0px;
+  margin: 5px 0px 25px 0px;
   text-align: center;
   font-family: 'Bungee Shade', cursive;
   font-size: 100px;
 }
 
 footer {
-  text-align: center;
-  margin-top: 15px;
+  padding-right: 62px;
+  float: right;
+  margin-top: 10px;
+}
+span {
+  color: #00e7ff;
+}
+.year {
+  color: red;
+}
+.green {
+  color: #aeffae;
+}
+
+.name {
+  font-family: 'Orbitron', sans-serif;
+  color: #00e7ff;
 }
