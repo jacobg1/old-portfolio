@@ -15,7 +15,10 @@ a:hover {
 .resume {
   text-decoration: underline;
 margin-top: 0px;
-
+}
+.resumePic {
+  height: auto;
+  width: 750px;
 }
 .resumeLink {
   font-size: 25px;
