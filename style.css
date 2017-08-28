@@ -4,10 +4,35 @@ body {
   min-height: inherit;
   min-width: inherit;
 }
-.linkedin {
+a {
   text-decoration: none;
   font-weight: bold;
-  color: #fff6b5;
+  color: #fff6b5
+}
+a:hover {
+  text-decoration: underline;
+}
+.resume {
+  text-decoration: underline;
+margin-top: 0px;
+
+}
+.resumeLink {
+  font-size: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.brand {
+  font-size: 23px;
+  margin-bottom: 0;
+  margin-top: 22px;
+  color: #ffffff;
+  font-family: 'Black Ops One', cursive;
+}
+.linkedin {
+  padding-top: 20px;
+  padding-left: 62px;
+  float: left;
 }
 .linkedin:hover {
   text-decoration: underline;
@@ -17,8 +42,14 @@ body {
   flex-direction: row;
   justify-content: space-around;
   align-items: flex-end;
-  margin-top: 95px;
+  margin-top: 45px;
   font-size: 24px;
+}
+.proj {
+  font-size: 23px;
+  font-family: 'Black Ops One', cursive;
+  margin-top: 15px;
+
 }
 p {
   color: #d9d9e8;
@@ -41,7 +72,7 @@ p {
   box-shadow:         0px 3px 3px 3px black;
 }
 .project2 {
-  background-image: url(img/space.jpg);
+  background-image: url(img/places.png);
   background-size: cover;
   height: 275px;
   width: 275px;
@@ -75,7 +106,7 @@ p {
 }
 .main-page {
   height: 450px;
-  width: 1250px;
+  width: 1000px;
   margin: auto;
   background-color: #335c80;
   background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
@@ -88,11 +119,11 @@ h1 {
   font-family: 'Bungee Shade', cursive;
   font-size: 100px;
 }
-
-footer {
+.signature {
   padding-right: 62px;
   float: right;
-  margin-top: 10px;
+}
+footer {
 }
 span {
   color: #00e7ff;
@@ -102,6 +133,10 @@ span {
 }
 .green {
   color: #aeffae;
+}
+img {
+  height: 275px;
+  width: 275px;
 }
 
 .name {
