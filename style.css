@@ -19,16 +19,35 @@ margin-top: 0px;
 .resumePic {
   height: auto;
   width: 750px;
+  display: block;
+  margin: 0 auto;
+}
+.resumeDiv {
+  align-items: center;
+  padding-top: 30px;
+
 }
 .resumeLink {
   font-size: 25px;
   margin-top: 15px;
   margin-bottom: 15px;
 }
+.resumeDownLoad {
+
+}
+.backLink {
+  padding-left: 12px;
+}
+.resumeDownLoadLink {
+  font-size: 25px;
+  position: absolute;
+  top: 30px;
+  left: 15px;
+}
 .brand {
   font-size: 23px;
   margin-bottom: 0;
-  margin-top: 22px;
+  /*margin-top: 20px;*/
   color: #d9d9e8;
   font-family: 'Baloo Bhaijaan', cursive;
 }
@@ -105,7 +124,7 @@ p {
   box-shadow:         0px 3px 3px 3px black;
 }
 .main-page {
-  height: 450px;
+  height: 425px;
   width: 1000px;
   margin: auto;
   background-color: #335c80;
@@ -114,7 +133,7 @@ p {
 }
 h1 {
   color: #d9d9e8;
-  margin: 5px 0px 25px 0px;
+  margin: 0px 0px 0px 0px;
   text-align: center;
   font-family: 'Bungee Shade', cursive;
   font-size: 100px;
