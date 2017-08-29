@@ -50,7 +50,6 @@ margin-top: 0px;
   font-size: 23px;
   font-family: 'Black Ops One', cursive;
   margin-top: 15px;
-
 }
 p {
   color: #d9d9e8;
@@ -120,7 +119,6 @@ h1 {
   font-family: 'Bungee Shade', cursive;
   font-size: 100px;
   text-shadow: 2px 2px 2px black;
-
 }
 .signature {
   padding-right: 62px;
@@ -143,11 +141,11 @@ img {
 }
 .contact {
   color: #fff6b5;
-  padding-top: 20px;
+  /*padding-top: 20px;*/
   padding-left: 62px;
   float: left;
-
 }
+
 .name {
   font-family: 'Orbitron', sans-serif;
   color: #00e7ff;
