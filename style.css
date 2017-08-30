@@ -1,15 +1,22 @@
 body {
-  background-color: #335c80;
-  background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
+  /*background-color: #88adff;*/
+  background-color: #475167;
+  /*background-color: #335c80;*/
+  /*background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");*/
   min-height: inherit;
   min-width: inherit;
   margin-top: 0px;
-  /*max-height: 650px;*/
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+
+  /*max-height: #335c80 650px;*/
 }
 a {
   text-decoration: none;
   font-weight: bold;
-  color: #fff6b5
+  /*color: #fff6b5;*/
+  /*color: #01e7ff;*/
+  color: #c2f9ff;
+
 }
 a:hover {
   text-decoration: underline;
@@ -33,6 +40,7 @@ margin-top: 0px;
   font-size: 25px;
   margin-top: 2px;
   margin-bottom: 2px;
+
 }
 .resumeDownLoad {
 
@@ -46,11 +54,16 @@ margin-top: 0px;
   top: 30px;
   left: 15px;
 }
+hr {
+  margin-top: 0;
+  margin-bottom: 17px;
+}
 .brand {
-  font-size: 23px;
+  font-size: 19px;
   margin-bottom: 0;
   /*margin-top: 20px;*/
-  color: #d9d9e8;
+  /*color: #d9d9e8;*/
+  color: #eeeeff;
   font-family: 'Baloo Bhaijaan', cursive;
 }
 .linkedin {
@@ -66,14 +79,18 @@ margin-top: 0px;
   align-items: flex-end;
   margin-top: 45px;
   font-size: 24px;
+
 }
 .proj {
   font-size: 23px;
   font-family: 'Black Ops One', cursive;
   margin-top: 15px;
+
+
 }
 p {
-  color: #d9d9e8;
+  /*color: #d9d9e8;*/
+  color: white;
   text-align: center;
 }
 .tags {
@@ -86,6 +103,11 @@ p {
   width: 275px;
   background-image: url(img/feynman.jpg);
   background-size: cover;
+  /*border: 2px solid white;*/
+  -moz-box-shadow:    0px 4px 4px 1px black;
+  -webkit-box-shadow: 0px 4px 4px 1px black;
+  box-shadow: 4px 6px 6px 1px black;
+
 }
 .project1:hover {
   -moz-box-shadow:    0px 3px 3px 3px black;
@@ -97,6 +119,11 @@ p {
   background-size: cover;
   height: 275px;
   width: 275px;
+  /*border: 3px solid white;*/
+  -moz-box-shadow:    0px 4px 4px 1px black;
+  -webkit-box-shadow: 0px 4px 4px 1px black;
+  box-shadow: 4px 6px 6px 1px black;
+
 }
 .project2:hover {
   -moz-box-shadow:    0px 3px 3px 3px black;
@@ -108,6 +135,12 @@ p {
   background-size: cover;
   height: 275px;
   width: 275px;
+  /*border: 3px solid white;*/
+  -moz-box-shadow:    0px 4px 4px 1px black;
+  -webkit-box-shadow: 0px 4px 4px 1px black;
+  box-shadow: 4px 6px 6px 1px black;
+
+
 }
 .project3:hover {
   -moz-box-shadow:    0px 3px 3px 3px black;
@@ -129,16 +162,26 @@ p {
   height: 415px;
   width: 1000px;
   margin: auto;
-  background-color: #335c80;
-  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
-  border: 5px inset #d9d9e8;
+  /*background: red;
+ background: -webkit-linear-gradient(left top, red, yellow);
+ background: -o-linear-gradient(bottom right, red, yellow);
+ background: -moz-linear-gradient(bottom right, red, yellow);
+ background: linear-gradient(to bottom right, #ff0101, #0014ff); */
+  background-color: #2a498e;
+  /*border: 5px inset #d9d9e8;*/
+  border: 5px inset white;
+
+
 }
 h1 {
-  color: #d9d9e8;
+  /*color: #d9d9e8;*/
+  /*color: #00e7ff;*/
+  color: #c2f9ff;
+
   margin: 0px 0px 0px 0px;
   text-align: center;
   font-family: 'Bungee Shade', cursive;
-  font-size: 100px;
+  font-size: 95px;
   text-shadow: 2px 2px 2px black;
 }
 .signature {
@@ -154,15 +197,16 @@ span {
   color: red;
 }
 .green {
-  color: #aeffae;
+  /*color: #aeffae;*/
 }
 img {
   height: 275px;
   width: 275px;
 }
 .contact {
-  color: #fff6b5;
-  /*padding-top: 20px;*/
+  /*color: #01e7ff;*/
+color: #c2f9ff;
+  padding-top: 12px;
   padding-left: 62px;
   float: left;
 }
