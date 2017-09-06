@@ -358,3 +358,21 @@ background-color: blue;
   border-right: 300px solid #1690bf;
   position: fixed;
 }
+.leftText {
+  z-index: 1;
+  position: fixed;
+  left: 28px;
+  top: 175px;
+  /*top: 0;*/
+}
+.rightText {
+  z-index: 1;
+  position: fixed;
+  right: 25px;
+  top: 175px;
+}
+h2 {
+  color: #a8f9eb36;
+  font-size: 250px;
+  font-family: 'Nova Mono', monospace;
+}
