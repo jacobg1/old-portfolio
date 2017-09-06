@@ -27,7 +27,7 @@ body {
   min-height: inherit;
   min-width: inherit;
   margin-top: 0px;
-  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  /*background-image: url("https://www.transparenttextures.com/patterns/cubes.png");*/
   /*max-height: #335c80 650px;*/
 }
 a {
@@ -143,7 +143,7 @@ p {
   margin: 20px auto;
 
   height: 300px;
-  width: 750px;
+  width: 650px;
   /*background-size: cover;*/
   /*border: 2px solid white;*/
   -moz-box-shadow:    0px 4px 4px 1px black;
@@ -162,7 +162,7 @@ p {
   margin: 20px auto;
   justify-content: center;
   height: 300px;
-  width: 750px;
+  width: 650px;
   /*border: 3px solid white;*/
   -moz-box-shadow:    0px 4px 4px 1px black;
   -webkit-box-shadow: 0px 4px 4px 1px black;
@@ -179,7 +179,7 @@ p {
   margin: 20px auto;
   justify-content: center;
   height: 300px;
-  width: 750px;
+  width: 650px;
   -moz-box-shadow:    0px 4px 4px 1px black;
   -webkit-box-shadow: 0px 4px 4px 1px black;
   box-shadow: 4px 6px 6px 1px black;
@@ -277,7 +277,7 @@ span {
 }
 img {
   height: 300px;
-  width: 750px;
+  width: 650px;
 }
 .contact {
   /*color: #01e7ff;*/
@@ -290,4 +290,71 @@ left: 20px;
 .name {
   font-family: 'Orbitron', sans-serif;
   color: #00e7ff;
+}
+.leftBox {
+  z-index: -1;
+  left: -175px;
+  position: fixed;
+  width: 0;
+
+  height: 0;
+  border-top: 400px solid transparent;
+  border-bottom: 400px solid transparent;
+
+  border-right:400px solid #1690bf;
+}
+.rightBox {
+  z-index: -1;
+  -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg); /* Standard syntax */
+  right: -175px;
+  position: fixed;
+  width: 0;
+  height: 0;
+
+  border-top: 400px solid transparent;
+  border-bottom: 400px solid transparent;
+
+  border-right: 400px solid #1690bf;
+}
+.secondLeftBox {
+
+  /*z-index: -1;
+background-color: blue;
+  position: fixed;
+  top: 350px;
+  left: 5px;
+  border-radius: 50%;
+	width: 75px;
+	height: 75px;*/
+
+}
+
+.thirdLeftBox {
+  z-index: -1;
+  -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  left: 0;
+  bottom: 100px;
+  border-top: 300px solid transparent;
+  border-bottom: 300px solid transparent;
+
+  border-right: 300px solid #1690bf;
+  position: fixed;
+}
+
+.secondRightBox {
+  z-index: -1;
+  /*-ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);*/
+  right: 0;
+  bottom: 100px;
+  border-top: 300px solid transparent;
+  border-bottom: 300px solid transparent;
+
+  border-right: 300px solid #1690bf;
+  position: fixed;
 }
