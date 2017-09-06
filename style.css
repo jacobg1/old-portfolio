@@ -24,8 +24,8 @@ body {
   background-color: #475167;
   /*background-color: #335c80;*/
   /*background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");*/
-  min-height: inherit;
   min-width: inherit;
+  min-height: inherit;
   margin-top: 0px;
   /*background-image: url("https://www.transparenttextures.com/patterns/cubes.png");*/
   /*max-height: #335c80 650px;*/
@@ -116,12 +116,12 @@ hr {
   margin: 10px auto;
 
   font-size: 24px;
-  width: 800px;
+  width: 500px;
   height: 400px;
 
 }
 .proj {
-  font-size: 23px;
+  font-size: 18px;
   font-family: 'Black Ops One', cursive;
   /*margin-top: 15px;*/
 
@@ -143,7 +143,7 @@ p {
   margin: 20px auto;
 
   height: 300px;
-  width: 650px;
+  width: 400px;
   /*background-size: cover;*/
   /*border: 2px solid white;*/
   -moz-box-shadow:    0px 4px 4px 1px black;
@@ -162,7 +162,7 @@ p {
   margin: 20px auto;
   justify-content: center;
   height: 300px;
-  width: 650px;
+  width: 400px;
   /*border: 3px solid white;*/
   -moz-box-shadow:    0px 4px 4px 1px black;
   -webkit-box-shadow: 0px 4px 4px 1px black;
@@ -179,7 +179,7 @@ p {
   margin: 20px auto;
   justify-content: center;
   height: 300px;
-  width: 650px;
+  width: 400px;
   -moz-box-shadow:    0px 4px 4px 1px black;
   -webkit-box-shadow: 0px 4px 4px 1px black;
   box-shadow: 4px 6px 6px 1px black;
@@ -205,8 +205,12 @@ p {
 .main-page {
   margin-top: 15px;
   height: 415px;
-  width: 1000px;
+  width: 750px;
   margin: 0 auto;
+  position: relative;
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*flex-grow: 4;*/
 
   /*background: red;
  background: -webkit-linear-gradient(left top, red, yellow);
@@ -277,7 +281,7 @@ span {
 }
 img {
   height: 300px;
-  width: 650px;
+  width: 400px;
 }
 .contact {
   /*color: #01e7ff;*/
@@ -294,14 +298,14 @@ left: 20px;
 .leftBox {
   z-index: -1;
   left: -175px;
-  position: fixed;
+  position: absolute;
   width: 0;
 
   height: 0;
-  border-top: 400px solid transparent;
-  border-bottom: 400px solid transparent;
+  border-top: 500px solid transparent;
+  border-bottom: 500px solid transparent;
 
-  border-right:400px solid #1690bf;
+  border-right:500px solid #1690bf;
 }
 .rightBox {
   z-index: -1;
@@ -309,14 +313,14 @@ left: 20px;
     -webkit-transform: rotate(180deg); /* Safari */
     transform: rotate(180deg); /* Standard syntax */
   right: -175px;
-  position: fixed;
+  position: absolute;
   width: 0;
   height: 0;
 
-  border-top: 400px solid transparent;
-  border-bottom: 400px solid transparent;
+  border-top: 500px solid transparent;
+  border-bottom: 500px solid transparent;
 
-  border-right: 400px solid #1690bf;
+  border-right: 500px solid #1690bf;
 }
 .secondLeftBox {
 
@@ -343,13 +347,13 @@ background-color: blue;
 
   border-right: 300px solid #1690bf;
   position: fixed;
-}
 
+}
 .secondRightBox {
   z-index: -1;
-  /*-ms-transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);*/
+  /*-ms-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);*/
   right: 0;
   bottom: 100px;
   border-top: 300px solid transparent;
@@ -362,14 +366,14 @@ background-color: blue;
   z-index: 1;
   position: fixed;
   left: 28px;
-  top: 175px;
+  top: 15px;
   /*top: 0;*/
 }
 .rightText {
   z-index: 1;
   position: fixed;
   right: 25px;
-  top: 175px;
+  top: 15px;
 }
 h2 {
   color: #a8f9eb36;
