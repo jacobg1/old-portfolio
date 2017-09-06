@@ -108,34 +108,28 @@ hr {
 
   }
 }
-.linkedin {
-  /*animation-name: linkedin;
-  animation-duration: 5s;*/
-}
-.linkedin:hover {
-  text-decoration: underline;
-}
+
 .projects {
   background-color: #2a498e;
   border: 5px inset white;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 10px;
+  /*margin-top: 10px;*/
+  margin: 10px auto;
+
   font-size: 24px;
-  width: 990px;
+  width: 800px;
   height: 400px;
 
 }
 .proj {
   font-size: 23px;
   font-family: 'Black Ops One', cursive;
-  margin-top: 15px;
+  /*margin-top: 15px;*/
 
 
 }
 p {
   /*color: #d9d9e8;*/
+  margin-top: 5px;;
   color: white;
   text-align: center;
 }
@@ -145,13 +139,12 @@ p {
 }
 
 .project1 {
-margin-top: 15px;
   justify-content: center;
+  margin: 20px auto;
 
-  height: 260px;
-  width: 700px;
-  background-image: url(img/feynman.jpg);
-  background-size: cover;
+  height: 300px;
+  width: 750px;
+  /*background-size: cover;*/
   /*border: 2px solid white;*/
   -moz-box-shadow:    0px 4px 4px 1px black;
   -webkit-box-shadow: 0px 4px 4px 1px black;
@@ -159,19 +152,17 @@ margin-top: 15px;
 
 }
 .project1:hover {
-  margin-top: 15px;
+  margin-top: 20px;
   -moz-box-shadow:    0px 3px 3px 3px black;
   -webkit-box-shadow: 0px 3px 3px 3px black;
   box-shadow:         0px 3px 3px 3px black;
 }
 .project2 {
-  background-image: url(img/places.png);
   background-size: cover;
-  margin-top: 19px;
-    justify-content: center;
-
-    height: 260px;
-    width: 700px;
+  margin: 20px auto;
+  justify-content: center;
+  height: 300px;
+  width: 750px;
   /*border: 3px solid white;*/
   -moz-box-shadow:    0px 4px 4px 1px black;
   -webkit-box-shadow: 0px 4px 4px 1px black;
@@ -184,14 +175,11 @@ margin-top: 15px;
   box-shadow:         0px 3px 3px 3px black;
 }
 .project3 {
-  background-image: url(img/einstein.jpg);
   background-size: cover;
-  margin-top: 19px;
-    justify-content: center;
-
-    height: 260px;
-    width: 700px;
-  /*border: 3px solid white;*/
+  margin: 20px auto;
+  justify-content: center;
+  height: 300px;
+  width: 750px;
   -moz-box-shadow:    0px 4px 4px 1px black;
   -webkit-box-shadow: 0px 4px 4px 1px black;
   box-shadow: 4px 6px 6px 1px black;
@@ -215,9 +203,11 @@ margin-top: 15px;
   box-shadow:         0px 3px 3px 3px black;
 }
 .main-page {
+  margin-top: 15px;
   height: 415px;
   width: 1000px;
   margin: 0 auto;
+
   /*background: red;
  background: -webkit-linear-gradient(left top, red, yellow);
  background: -o-linear-gradient(bottom right, red, yellow);
@@ -261,8 +251,15 @@ h1 {
   /*text-shadow: 2px 2px 2px black;*/
 }
 .signature {
-  padding-right: 62px;
-  float: right;
+  right: 45px;
+  bottom: 0;
+  position: fixed;
+}
+.linkedin {
+
+}
+.linkedin:hover {
+  text-decoration: underline;
 }
 footer {
   /*bottom: 0;*/
@@ -279,15 +276,14 @@ span {
   /*color: #aeffae;*/
 }
 img {
-  height: 275px;
-  width: 700px;
+  height: 300px;
+  width: 750px;
 }
 .contact {
   /*color: #01e7ff;*/
 color: #c2f9ff;
-  padding-top: 12px;
-  padding-left: 62px;
-  bottom: 0;
+left: 20px;
+  bottom: 17px;
   position: fixed;
 }
 
