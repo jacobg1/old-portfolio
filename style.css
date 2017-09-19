@@ -115,7 +115,7 @@ hr {
   /*margin-top: 10px;*/
   margin: 10px auto;
 
-  font-size: 24px;
+  font-size: 20px;
   width: 95%;
   height: 340px;
 
@@ -180,7 +180,7 @@ width: 400px;*/
   margin: 20px auto;
   justify-content: center;
   height: 75%;
-  width: 85%;
+  width: 75%;
   -moz-box-shadow:    0px 4px 4px 1px black;
   -webkit-box-shadow: 0px 4px 4px 1px black;
   box-shadow: 4px 6px 6px 1px black;
@@ -297,11 +297,9 @@ left: 20px;
   left: -175px;
   position: fixed;
   width: 0;
-
   height: 0;
   border-top: 400px solid transparent;
   border-bottom: 400px solid transparent;
-
   border-right:400px solid #1690bf;
 }
 .rightBox {
