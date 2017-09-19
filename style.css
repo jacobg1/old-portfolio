@@ -124,11 +124,13 @@ p {
   text-align: center;
 }
 .tags {
-  margin-top: 115px;
+  font-size: 20px;
   font-family: 'Black Ops One', cursive;
 }
 
-
+/*.projectsContainer {
+  height: 300px;
+}*/
 .projects {
   background-size: cover;
   margin: 20px auto;
@@ -183,16 +185,19 @@ p {
 
 
   }
+  .developer {
+    font-size: 15px;
+  }
 h1 {
   /*color: #d9d9e8;*/
   /*color: #00e7ff;*/
   color: #c2f9ff;
   animation-name: name;
       /*animation-duration: 6s;*/
-  margin: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 30px;
   text-align: center;
   font-family: 'Bungee Shade', cursive;
-  font-size: 95px;
+  font-size: 65px;
   /*text-shadow: 2px 2px 2px black;*/
 }
 .signature {
@@ -211,9 +216,7 @@ footer {
   position: fixed;
 
 }
-span {
-  color: #00e7ff;
-}
+
 .year {
   color: red;
 }
