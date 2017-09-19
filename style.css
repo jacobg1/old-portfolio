@@ -21,8 +21,7 @@ body {
   animation-name: body;
   /*animation-duration: 5s;*/
   /*background-color: #88adff;*/
-  /*background-color: #475167;*/
-  background-color: #3e5fa7;
+  background-color: #475167;
   /*background-color: #335c80;*/
   /*background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");*/
   min-height: inherit;
@@ -76,12 +75,12 @@ margin-top: 0px;
   left: 15px;
 }
 hr {
-  margin-top: 10px;
+  margin-top: 0;
   margin-bottom: 17px;
 }
 
 .brand {
-font-weight: bold;
+
   font-size: 20px;
   margin-bottom: 0;
   /*margin-top: 20px;*/
@@ -110,7 +109,17 @@ font-weight: bold;
   }
 }
 
+.projects {
+  background-color: #2a498e;
+  border: 5px inset white;
+  /*margin-top: 10px;*/
+  margin: 10px auto;
 
+  font-size: 24px;
+  width: 95%;
+  height: 340px;
+
+}
 .proj {
   font-size: 23px;
   font-family: 'Black Ops One', cursive;
@@ -120,50 +129,45 @@ font-weight: bold;
 }
 p {
   /*color: #d9d9e8;*/
-  margin-top: 5px;
+  margin-top: 5px;;
   color: white;
-
   text-align: center;
 }
-.title {
-  /*align-items: center;*/
-/*display: flex;*/
-position: relative;
-height: 100px;
-text-align: center;
-}
-.developer {
-  font-size: 15px;
-margin-bottom: 20px;
-  /*font-family: 'Baloo Bhaijaan', cursive;*/
-color: white;
-font-family: 'Bungee Shade', cursive;
-
-
+.tags {
+  margin-top: 115px;
+  font-family: 'Black Ops One', cursive;
 }
 
-.projectsContainer {
-  /*border: 5px solid white;*/
-  /*margin-top: 10px;*/
-  font-size: 24px;
-  margin: 20px auto;
+.project1 {
   justify-content: center;
-  height: 425px;
-  width: 55%;
+  margin: 20px auto;
+/*height: 300px;
+width: 400px;*/
+  height: 75%;
+  width: 85%;
+  /*background-size: cover;*/
+  /*border: 2px solid white;*/
+  -moz-box-shadow:    0px 4px 4px 1px black;
+  -webkit-box-shadow: 0px 4px 4px 1px black;
+  box-shadow: 4px 6px 6px 1px black;
 
 }
-.projects {
+.project1:hover {
+  margin-top: 20px;
+  -moz-box-shadow:    0px 3px 3px 3px black;
+  -webkit-box-shadow: 0px 3px 3px 3px black;
+  box-shadow:         0px 3px 3px 3px black;
+}
+.project2 {
   background-size: cover;
   margin: 20px auto;
   justify-content: center;
-  /*background-color: #2a498e;*/
-/*background-color: #3e5fa7;*/
-  height: 400px;
-  width: 80%;
+  height: 75%;
+  width: 85%;
   /*border: 3px solid white;*/
-  /*-moz-box-shadow:    0px 4px 4px 1px black;
+  -moz-box-shadow:    0px 4px 4px 1px black;
   -webkit-box-shadow: 0px 4px 4px 1px black;
-  box-shadow: 4px 6px 6px 1px black;*/
+  box-shadow: 4px 6px 6px 1px black;
 
 }
 .project2:hover {
@@ -171,13 +175,38 @@ font-family: 'Bungee Shade', cursive;
   -webkit-box-shadow: 0px 3px 3px 3px black;
   box-shadow:         0px 3px 3px 3px black;
 }
+.project3 {
+  background-size: cover;
+  margin: 20px auto;
+  justify-content: center;
+  height: 75%;
+  width: 85%;
+  -moz-box-shadow:    0px 4px 4px 1px black;
+  -webkit-box-shadow: 0px 4px 4px 1px black;
+  box-shadow: 4px 6px 6px 1px black;
 
-.tags {
+
+}
+.project3:hover {
+  -moz-box-shadow:    0px 3px 3px 3px black;
+  -webkit-box-shadow: 0px 3px 3px 3px black;
+  box-shadow:         0px 3px 3px 3px black;
+}
+.project4 {
+  background-image: url(img/maxresdefault.jpg);
+  background-size: cover;
+  height: 275px;
+  width: 275px;
+}
+.project4:hover {
+  -moz-box-shadow:    0px 3px 3px 3px black;
+  -webkit-box-shadow: 0px 3px 3px 3px black;
+  box-shadow:         0px 3px 3px 3px black;
 }
 .main-page {
   margin-top: 15px;
-  /*height: 60%;
-  width: 75%;*/
+  height: 60%;
+  width: 75%;
   margin: 0 auto;
 
   /*background: red;
@@ -216,15 +245,11 @@ h1 {
   color: #c2f9ff;
   animation-name: name;
       /*animation-duration: 6s;*/
-  margin-bottom: 15px;
-  margin-top: 0;
+  margin: 0px 0px 0px 0px;
   text-align: center;
-  /*font-family: 'Baloo Bhaijaan', cursive;*/
-  font-family: 'Permanent Marker', cursive;
-
-  /*font-family: 'Bungee Shade', cursive;*/
-  font-size: 75px;
-  text-shadow: 2px 2px 2px black;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 95px;
+  /*text-shadow: 2px 2px 2px black;*/
 }
 .signature {
   right: 45px;
@@ -252,12 +277,8 @@ span {
   /*color: #aeffae;*/
 }
 img {
-  height: 350px;
-  width: 350px;
-  float: left;
-  border-radius: 50%;
-  border: 2px solid black;
-  /*padding-left: 30px;*/
+  height: 100%;
+  width: 100%;
 }
 .contact {
   /*color: #01e7ff;*/
@@ -273,32 +294,30 @@ left: 20px;
 }
 .leftBox {
   z-index: -1;
-  left: -400px;
-  bottom: -400px;
-
+  left: -175px;
   position: fixed;
   width: 0;
 
   height: 0;
-  border-top: 800px solid transparent;
-  border-bottom: 800px solid transparent;
+  border-top: 400px solid transparent;
+  border-bottom: 400px solid transparent;
 
-  border-right:800px solid #1690bf;
+  border-right:400px solid #1690bf;
 }
 .rightBox {
   z-index: -1;
-  -ms-transform: rotate(180deg);
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
-  right: -400px;
-  bottom: -400px;
+  -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg); /* Standard syntax */
+  right: -175px;
   position: fixed;
   width: 0;
   height: 0;
-  border-top: 800px solid transparent;
-  border-bottom: 800px solid transparent;
 
-  border-right: 800px solid #1690bf;
+  border-top: 400px solid transparent;
+  border-bottom: 400px solid transparent;
+
+  border-right: 400px solid #1690bf;
 }
 .secondLeftBox {
 
@@ -313,53 +332,48 @@ background-color: blue;
 
 }
 
-/*.thirdLeftBox {
+.thirdLeftBox {
   z-index: -1;
   -ms-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
   left: 0;
-  bottom: 55px;
+  bottom: 100px;
   border-top: 300px solid transparent;
   border-bottom: 300px solid transparent;
 
   border-right: 300px solid #1690bf;
   position: fixed;
-}*/
+}
 
-/*.secondRightBox {
+.secondRightBox {
   z-index: -1;
-
+  /*-ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);*/
   right: 0;
-  bottom: 55px;
+  bottom: 100px;
   border-top: 300px solid transparent;
   border-bottom: 300px solid transparent;
 
   border-right: 300px solid #1690bf;
   position: fixed;
-}*/
+}
 .leftText {
   z-index: 1;
   position: fixed;
-  left: 70px;
-  bottom: -85px;
+  left: 28px;
+  bottom: 0;
   /*top: 0;*/
 }
 .rightText {
   z-index: 1;
   position: fixed;
-  right: 70px;
-  bottom: -85px;
+  right: 25px;
+  bottom: 0;
 }
 h2 {
   color: #a8f9eb36;
   font-size: 250px;
   font-family: 'Nova Mono', monospace;
-}
-@media screen and (max-width: 850px) {
-  h1 {
-    font-size: 50px;
-
-  }
-
 }
