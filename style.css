@@ -218,24 +218,16 @@ footer {
 
 }
 
-.year {
-  color: red;
-}
-.green {
-  /*color: #aeffae;*/
-}
+
+
 img {
   height: 100%;
   width: 100%;
 }
-.contact {
-  /*color: #01e7ff;*/
-color: #c2f9ff;
-left: 20px;
-  bottom: 17px;
-  position: fixed;
-}
 
+.year {
+  color: red;
+}
 .name {
   font-family: 'Orbitron', sans-serif;
   color: #00e7ff;
