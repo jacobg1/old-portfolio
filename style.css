@@ -125,18 +125,24 @@ p {
 }
 .tags {
   font-size: 20px;
-  font-family: 'Black Ops One', cursive;
+  font-family: 'Baloo Bhaijaan', cursive;
+
+  /*font-family: 'Black Ops One', cursive;*/
 }
 
-/*.projectsContainer {
+.projectsContainer {
   height: 300px;
-}*/
+}
 .projects {
   background-size: cover;
-  margin: 20px auto;
+  margin: auto;
   justify-content: center;
-  height: 75%;
-  width: 85%;
+  /*height: 75%;
+
+  width: 75%;*/
+  height: 140px;
+  width: 75%;
+
   /*border: 3px solid white;*/
   /*-moz-box-shadow:    0px 4px 4px 1px black;
   -webkit-box-shadow: 0px 4px 4px 1px black;
@@ -240,7 +246,7 @@ left: 20px;
 }
 .leftBox {
   z-index: -1;
-  left: -175px;
+  left: -110px;
   position: fixed;
   width: 0;
 
@@ -255,7 +261,7 @@ left: 20px;
   -ms-transform: rotate(180deg); /* IE 9 */
     -webkit-transform: rotate(180deg); /* Safari */
     transform: rotate(180deg); /* Standard syntax */
-  right: -175px;
+  right: -110px;
   position: fixed;
   width: 0;
   height: 0;
@@ -283,8 +289,8 @@ background-color: blue;
   -ms-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
-  left: 0;
-  bottom: 100px;
+  left: -35px;
+  bottom: 175px;
   border-top: 300px solid transparent;
   border-bottom: 300px solid transparent;
 
@@ -297,8 +303,8 @@ background-color: blue;
   /*-ms-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);*/
-  right: 0;
-  bottom: 100px;
+  right: -35px;
+  bottom: 175px;
   border-top: 300px solid transparent;
   border-bottom: 300px solid transparent;
 
@@ -309,14 +315,14 @@ background-color: blue;
   z-index: 1;
   position: fixed;
   left: 28px;
-  bottom: 0;
+  bottom: -85px;
   /*top: 0;*/
 }
 .rightText {
   z-index: 1;
   position: fixed;
   right: 25px;
-  bottom: 0;
+  bottom: -85px;
 }
 h2 {
   color: #a8f9eb36;
