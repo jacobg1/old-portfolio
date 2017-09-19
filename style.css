@@ -81,7 +81,7 @@ hr {
 
 .brand {
 
-  font-size: 20px;
+  font-size: 22px;
   margin-bottom: 0;
   /*margin-top: 20px;*/
   /*color: #d9d9e8;*/
@@ -119,19 +119,20 @@ hr {
 }
 p {
   /*color: #d9d9e8;*/
-  margin-top: 5px;;
+  margin-top: 5px;
   color: white;
   text-align: center;
 }
 .tags {
-  font-size: 20px;
+  margin-top: 0;
+  font-size: 22px;
   font-family: 'Baloo Bhaijaan', cursive;
 
   /*font-family: 'Black Ops One', cursive;*/
 }
 
 .projectsContainer {
-  height: 250px;
+  height: 270px;
 }
 .projects {
   background-size: cover;
