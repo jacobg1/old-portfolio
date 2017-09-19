@@ -211,12 +211,7 @@ h1 {
   bottom: 0;
   position: fixed;
 }
-.linkedin {
 
-}
-.linkedin:hover {
-  text-decoration: underline;
-}
 footer {
   /*bottom: 0;*/
   position: fixed;
