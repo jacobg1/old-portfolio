@@ -109,17 +109,7 @@ hr {
   }
 }
 
-.projects {
-  background-color: #2a498e;
-  border: 5px inset white;
-  /*margin-top: 10px;*/
-  margin: 10px auto;
 
-  font-size: 20px;
-  width: 95%;
-  height: 340px;
-
-}
 .proj {
   font-size: 23px;
   font-family: 'Black Ops One', cursive;
@@ -134,75 +124,31 @@ p {
   text-align: center;
 }
 .tags {
-  margin-top: 115px;
+  font-size: 20px;
   font-family: 'Black Ops One', cursive;
 }
 
-.project1 {
-  justify-content: center;
-  margin: 20px auto;
-/*height: 300px;
-width: 400px;*/
-  height: 75%;
-  width: 85%;
-  /*background-size: cover;*/
-  /*border: 2px solid white;*/
-  -moz-box-shadow:    0px 4px 4px 1px black;
-  -webkit-box-shadow: 0px 4px 4px 1px black;
-  box-shadow: 4px 6px 6px 1px black;
-
-}
-.project1:hover {
-  margin-top: 20px;
-  -moz-box-shadow:    0px 3px 3px 3px black;
-  -webkit-box-shadow: 0px 3px 3px 3px black;
-  box-shadow:         0px 3px 3px 3px black;
-}
-.project2 {
+/*.projectsContainer {
+  height: 300px;
+}*/
+.projects {
   background-size: cover;
   margin: 20px auto;
   justify-content: center;
   height: 75%;
   width: 85%;
   /*border: 3px solid white;*/
-  -moz-box-shadow:    0px 4px 4px 1px black;
+  /*-moz-box-shadow:    0px 4px 4px 1px black;
   -webkit-box-shadow: 0px 4px 4px 1px black;
-  box-shadow: 4px 6px 6px 1px black;
+  box-shadow: 4px 6px 6px 1px black;*/
 
 }
-.project2:hover {
+.projects:hover {
   -moz-box-shadow:    0px 3px 3px 3px black;
   -webkit-box-shadow: 0px 3px 3px 3px black;
   box-shadow:         0px 3px 3px 3px black;
 }
-.project3 {
-  background-size: cover;
-  margin: 20px auto;
-  justify-content: center;
-  height: 75%;
-  width: 75%;
-  -moz-box-shadow:    0px 4px 4px 1px black;
-  -webkit-box-shadow: 0px 4px 4px 1px black;
-  box-shadow: 4px 6px 6px 1px black;
 
-
-}
-.project3:hover {
-  -moz-box-shadow:    0px 3px 3px 3px black;
-  -webkit-box-shadow: 0px 3px 3px 3px black;
-  box-shadow:         0px 3px 3px 3px black;
-}
-.project4 {
-  background-image: url(img/maxresdefault.jpg);
-  background-size: cover;
-  height: 275px;
-  width: 275px;
-}
-.project4:hover {
-  -moz-box-shadow:    0px 3px 3px 3px black;
-  -webkit-box-shadow: 0px 3px 3px 3px black;
-  box-shadow:         0px 3px 3px 3px black;
-}
 .main-page {
   margin-top: 15px;
   height: 60%;
@@ -239,16 +185,18 @@ width: 400px;*/
 
 
   }
+  .developer {
+  }
 h1 {
   /*color: #d9d9e8;*/
   /*color: #00e7ff;*/
   color: #c2f9ff;
   animation-name: name;
       /*animation-duration: 6s;*/
-  margin: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 30px;
   text-align: center;
   font-family: 'Bungee Shade', cursive;
-  font-size: 95px;
+  font-size: 65px;
   /*text-shadow: 2px 2px 2px black;*/
 }
 .signature {
@@ -267,9 +215,7 @@ footer {
   position: fixed;
 
 }
-span {
-  color: #00e7ff;
-}
+
 .year {
   color: red;
 }
@@ -297,9 +243,11 @@ left: 20px;
   left: -175px;
   position: fixed;
   width: 0;
+
   height: 0;
   border-top: 400px solid transparent;
   border-bottom: 400px solid transparent;
+
   border-right:400px solid #1690bf;
 }
 .rightBox {
