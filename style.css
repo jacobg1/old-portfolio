@@ -120,18 +120,16 @@ p {
   font-size: 22px;
   color: #eeeeff;
   font-family: 'Baloo Bhaijaan', cursive;
-
-  /*font-family: 'Black Ops One', cursive;*/
+ /*font-family: 'Black Ops One', cursive;*/
 }
 .tagsContainer {
-
-
+display: block;
   /*font-family: 'Black Ops One', cursive;*/
 }
 .aboutMeContainer {
-  height: 500px;
-  width: 600px;
-display: flex;
+  height: 800px;
+  width: 80%;
+/*display: flex;*/
 margin: 0 auto;
 }
 .aboutMe {
@@ -145,7 +143,8 @@ margin: 0 auto;
   width: 75%;*/
   /*height: 300px;
   width: 300px;*/
-
+height: 100%;
+width: 100%;
   /*border: 3px solid white;*/
   /*-moz-box-shadow:    0px 4px 4px 1px black;
   -webkit-box-shadow: 0px 4px 4px 1px black;
@@ -230,8 +229,9 @@ footer {
 
 
 .headShot {
-  height: 300px;
-  width: 300px;
+  height: 325px;
+  width: 325px;
+  float: left;
 }
 
 .year {
