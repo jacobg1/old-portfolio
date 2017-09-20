@@ -58,7 +58,7 @@ margin-top: 0px;
 }
 .resumeLink {
   font-size: 25px;
-  margin-top: 2px;
+  margin-top: 24px;
   margin-bottom: 2px;
 
 }
@@ -79,15 +79,7 @@ hr {
   margin-bottom: 17px;
 }
 
-.brand {
 
-  font-size: 22px;
-  margin-bottom: 0;
-  /*margin-top: 20px;*/
-  /*color: #d9d9e8;*/
-  color: #eeeeff;
-  font-family: 'Baloo Bhaijaan', cursive;
-}
 @keyframes linkedin {
   0% {
     position: relative;
@@ -126,6 +118,7 @@ p {
 .tags {
   /*margin-top: 0;*/
   font-size: 22px;
+  color: #eeeeff;
   font-family: 'Baloo Bhaijaan', cursive;
 
   /*font-family: 'Black Ops One', cursive;*/
@@ -202,19 +195,26 @@ margin: 0 auto;
 
   }
   .developer {
+    color: #c2f9ff;
+    animation-name: name;
+    margin: -6px 0px 0px 30px;
+    text-align: center;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 65px;
+    /*text-shadow: 2px 2px 2px black;*/
   }
-h1 {
-  /*color: #d9d9e8;*/
-  /*color: #00e7ff;*/
-  color: #c2f9ff;
-  animation-name: name;
-      /*animation-duration: 6s;*/
-  margin: 0px 0px 0px 30px;
-  text-align: center;
-  font-family: 'Bungee Shade', cursive;
-  font-size: 65px;
-  /*text-shadow: 2px 2px 2px black;*/
-}
+  .jacob {
+    /*color: #d9d9e8;*/
+    /*color: #00e7ff;*/
+    color: #c2f9ff;
+    animation-name: name;
+        /*animation-duration: 6s;*/
+    margin: 25px 0px 0px 30px;
+    text-align: center;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 65px;
+    /*text-shadow: 2px 2px 2px black;*/
+  }
 .signature {
   right: 45px;
   bottom: 0;
@@ -229,7 +229,7 @@ footer {
 
 
 
-img {
+.headShot {
   height: 300px;
   width: 300px;
 }
