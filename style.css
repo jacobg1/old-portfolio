@@ -58,7 +58,7 @@ margin-top: 0px;
 }
 .resumeLink {
   font-size: 25px;
-  margin-top: 24px;
+  margin-top: 2px;
   margin-bottom: 2px;
 
 }
@@ -79,7 +79,15 @@ hr {
   margin-bottom: 17px;
 }
 
+.brand {
 
+  font-size: 22px;
+  margin-bottom: 0;
+  /*margin-top: 20px;*/
+  /*color: #d9d9e8;*/
+  color: #eeeeff;
+  font-family: 'Baloo Bhaijaan', cursive;
+}
 @keyframes linkedin {
   0% {
     position: relative;
@@ -116,35 +124,25 @@ p {
   text-align: center;
 }
 .tags {
-  /*margin-top: 0;*/
+  margin-top: 0;
   font-size: 22px;
-  color: #eeeeff;
   font-family: 'Baloo Bhaijaan', cursive;
- /*font-family: 'Black Ops One', cursive;*/
-}
-.tagsContainer {
-display: block;
+
   /*font-family: 'Black Ops One', cursive;*/
 }
-.aboutMeContainer {
-  height: 800px;
-  width: 80%;
-/*display: flex;*/
-margin: 0 auto;
-}
-.aboutMe {
-  /*float: left;
-  clear: left;*/
-  /*background-size: cover;*/
-  /*margin: auto;*/
-  /*justify-content: center;*/
-  /*height: 75%;
 
+.projectsContainer {
+  height: 270px;
+}
+.projects {
+  background-size: cover;
+  margin: auto;
+  justify-content: center;
+  /*height: 75%;
   width: 75%;*/
-  /*height: 300px;
-  width: 300px;*/
-height: 100%;
-width: 100%;
+  height: 140px;
+  width: 75%;
+
   /*border: 3px solid white;*/
   /*-moz-box-shadow:    0px 4px 4px 1px black;
   -webkit-box-shadow: 0px 4px 4px 1px black;
@@ -194,49 +192,54 @@ width: 100%;
 
   }
   .developer {
-    color: #c2f9ff;
-    animation-name: name;
-    margin: -6px 0px 0px 30px;
-    text-align: center;
-    font-family: 'Bungee Shade', cursive;
-    font-size: 65px;
-    /*text-shadow: 2px 2px 2px black;*/
   }
-  .jacob {
-    /*color: #d9d9e8;*/
-    /*color: #00e7ff;*/
-    color: #c2f9ff;
-    animation-name: name;
-        /*animation-duration: 6s;*/
-    margin: 25px 0px 0px 30px;
-    text-align: center;
-    font-family: 'Bungee Shade', cursive;
-    font-size: 65px;
-    /*text-shadow: 2px 2px 2px black;*/
-  }
+h1 {
+  /*color: #d9d9e8;*/
+  /*color: #00e7ff;*/
+  color: #c2f9ff;
+  animation-name: name;
+      /*animation-duration: 6s;*/
+  margin: 0px 0px 0px 30px;
+  text-align: center;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 65px;
+  /*text-shadow: 2px 2px 2px black;*/
+}
 .signature {
   right: 45px;
   bottom: 0;
   position: fixed;
 }
+.linkedin {
 
+}
+.linkedin:hover {
+  text-decoration: underline;
+}
 footer {
   /*bottom: 0;*/
   position: fixed;
 
 }
 
-
-
-.headShot {
-  height: 325px;
-  width: 325px;
-  float: left;
-}
-
 .year {
   color: red;
 }
+.green {
+  /*color: #aeffae;*/
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+.contact {
+  /*color: #01e7ff;*/
+color: #c2f9ff;
+left: 20px;
+  bottom: 17px;
+  position: fixed;
+}
+
 .name {
   font-family: 'Orbitron', sans-serif;
   color: #00e7ff;
