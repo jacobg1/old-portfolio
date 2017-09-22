@@ -58,9 +58,9 @@ margin-top: 0px;
 
 }
 .resumeLinkHome {
-  font-size: 25px;
-  margin-top: 6px;
-  margin-bottom: 2px;
+  font-size: 29px;
+  margin-top: 19px;
+  margin-bottom: 10px;
   font-family: 'Baloo Bhaijaan', cursive;
 
 
@@ -71,7 +71,7 @@ margin-top: 0px;
 .backLink {
   margin-bottom: 0;
   padding-left: 90px;
-  padding-top: 20px;
+  padding-top: 25px;
   position: absolute;
   font-size: 55px;
   font-family: 'Baloo Bhaijaan';
@@ -126,7 +126,7 @@ p {
 }
 .tags {
   /*margin-top: 0;*/
-  font-size: 24px;
+  font-size: 23px;
   color: #eeeeff;
   font-family: 'Baloo Bhaijaan', cursive;
  /*font-family: 'Black Ops One', cursive;*/
@@ -219,7 +219,7 @@ overflow: auto;
     color: #c2f9ff;
     animation-name: name;
         /*animation-duration: 6s;*/
-    margin: 25px 0px 0px 30px;
+    margin: 40px 0px 0px 30px;
     text-align: center;
     font-family: 'Bungee Shade', cursive;
     font-size: 65px;
@@ -255,8 +255,8 @@ footer {
 }
 .leftBox {
   z-index: -1;
-    left: -161px;
-    bottom: -492px;
+    left: -188px;
+    bottom: -539px;
     position: fixed;
     width: 0;
     height: 0;
@@ -269,8 +269,8 @@ footer {
   -ms-transform: rotate(180deg); /* IE 9 */
     -webkit-transform: rotate(180deg); /* Safari */
     transform: rotate(180deg); /* Standard syntax */
-  right: -161px;
-  bottom: -492px;
+  right: -188px;
+  bottom: -539px;
   position: fixed;
   width: 0;
   height: 0;
@@ -298,8 +298,8 @@ background-color: blue;
   -ms-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
-  left: -60px;
-  bottom: 237px;
+  left: -64px;
+  bottom: 147px;
   border-top: 350px solid transparent;
   border-bottom: 350px solid transparent;
 
@@ -312,8 +312,8 @@ background-color: blue;
   /*-ms-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);*/
-  right: -60px;
-  bottom: 237px;
+  right: -64px;
+  bottom: 147px;
   border-top: 350px solid transparent;
   border-bottom: 350px solid transparent;
 
@@ -323,15 +323,15 @@ background-color: blue;
 .leftText {
   z-index: 1;
   position: fixed;
-  left: 86px;
-  bottom: 18px;
+  left: 59px;
+  bottom: -42px;
   /*top: 0;*/
 }
 .rightText {
   z-index: 1;
   position: fixed;
-  right: 86px;
-  bottom: 18px;
+  right: 59px;
+  bottom: -42px;
 }
 h2 {
   color: #a8f9eb36;
@@ -357,7 +357,7 @@ h2 {
     margin: 5px;
     height: 70px;
     width: 80px;
-    background-color: white;
+    background-color: #1690bf;
     box-shadow: 3px 2px 2px black;
 
 
@@ -365,9 +365,9 @@ h2 {
 .skillsTags {
   height: 100%;
   font-family: 'Baloo Bhaijaan', cursive;
-
+  font-size: 18px;
   width: 100%;
-  color: #1690bf;
+  color: white;
   align-self: center;
   padding-top: 20px;
   padding-bottom: 20px;

@@ -10,7 +10,9 @@
 
   /*font-family: 'Black Ops One', cursive;*/
 }
-
+.mainProjectsContainer {
+  margin-top: 20px;
+}
 .projectsContainer {
   height: 350px;
 }
@@ -37,9 +39,9 @@
 }
 
 .resumeLink {
-  font-size: 25px;
-  margin-top: 24px;
-  margin-bottom: 12px;
+  font-size: 29px;
+  margin-top: 37px;
+  margin-bottom: 5px;
   font-family: 'Baloo Bhaijaan', cursive;
 
 
