@@ -4,7 +4,7 @@
 
 
 .tags {
-  margin-top: 0;
+  margin-top: 19px;
   font-size: 22px;
   font-family: 'Baloo Bhaijaan', cursive;
 
@@ -12,7 +12,7 @@
 }
 
 .projectsContainer {
-  height: 270px;
+  height: 350px;
 }
 .projects {
   background-size: cover;
@@ -22,7 +22,7 @@
 
   width: 75%;*/
   height: 140px;
-  width: 75%;
+  width: 68%;
 
   /*border: 3px solid white;*/
   /*-moz-box-shadow:    0px 4px 4px 1px black;
@@ -36,24 +36,14 @@
   box-shadow:         0px 3px 3px 3px black;
 }
 
-.main-page {
-  margin-top: 15px;
-  height: 60%;
-  width: 75%;
-  margin: 0 auto;
-
-  /*background: red;
- background: -webkit-linear-gradient(left top, red, yellow);
- background: -o-linear-gradient(bottom right, red, yellow);
- background: -moz-linear-gradient(bottom right, red, yellow);
- background: linear-gradient(to bottom right, #ff0101, #0014ff); */
-
-
-  /*border: 5px inset #d9d9e8;*/
+.resumeLink {
+  font-size: 25px;
+  margin-top: 24px;
+  margin-bottom: 12px;
+  font-family: 'Baloo Bhaijaan', cursive;
 
 
 }
-
 img {
   height: 100%;
   width: 100%;
