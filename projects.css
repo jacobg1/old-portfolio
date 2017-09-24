@@ -1,37 +1,54 @@
 
-
-
-
-
 .tags {
   margin-top: 19px;
   font-size: 22px;
   font-family: 'Baloo Bhaijaan', cursive;
-
   /*font-family: 'Black Ops One', cursive;*/
 }
+
 .mainProjectsContainer {
   margin-top: 20px;
 }
-.projectsContainer {
-  height: 350px;
+.rightArrow {
+  height: 40px;
+  width: 40px;
+  float: right;
+  margin-top: 30%;
+  font-size: 60px;
 }
+.leftArrow {
+  height: 40px;
+  width: 40px;
+  float: left;
+  margin-top: 30%;
+  font-size: 60px;
+}
+#projectsContainerOne {
+  height: 500px;
+  width: 75%;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+#projectsContainerTwo {
+  height: 350px;
+  display: none;
+}
+
 .projects {
   background-size: cover;
   margin: auto;
   justify-content: center;
   /*height: 75%;
-
   width: 75%;*/
   height: 140px;
   width: 68%;
-
   /*border: 3px solid white;*/
   /*-moz-box-shadow:    0px 4px 4px 1px black;
   -webkit-box-shadow: 0px 4px 4px 1px black;
   box-shadow: 4px 6px 6px 1px black;*/
-
 }
+
 .projects:hover {
   -moz-box-shadow:    0px 3px 3px 3px black;
   -webkit-box-shadow: 0px 3px 3px 3px black;
@@ -43,9 +60,8 @@
   margin-top: 37px;
   margin-bottom: 5px;
   font-family: 'Baloo Bhaijaan', cursive;
-
-
 }
+
 img {
   height: 100%;
   width: 100%;

@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Bungee+Shade|Orbitron" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nova+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <div>
@@ -34,8 +35,13 @@
       <div class="secondRightBox"></div>
       <div class="mainProjectsContainer">
 
-      <div class="projectsContainer">
-
+      <div id="projectsContainerOne">
+        <div class="rightArrow" onclick='nextProject()'>
+          <i class="fa fa-chevron-right"></i>
+        </div>
+        <div class="leftArrow" onclick='nextProject()'>
+          <i class="fa fa-chevron-left"></i>
+        </div>
         <div class="projects">
           <a href="http://crunchfm.surge.sh/"><img src="img/crunch3.png" alt=""></a>
           <p class='tags'>
@@ -48,7 +54,7 @@
         </div>
 
 
-    <div class="projectsContainer">
+    <div id="projectsContainerTwo">
 
       <div class="projects">
         <a href="https://jacobg1.github.io/real_memes/"><img src="img/real_memes2.png" alt=""></a>
@@ -59,7 +65,8 @@
 
       </div>
       </div>
-      <div class="projectsContainer">
+
+      <!--div class="projectsContainer">
 
       <div class="projects">
         <a href="https://the-places-app.herokuapp.com/"><img src="img/placesplaces.png" alt=""></a><p class='tags'>A photo gallery for pictures of cool places and stuff,
@@ -79,7 +86,7 @@
       </div>
     </div>
     </div>
-    </div>
+  </div-->
   </body>
   <footer>
     <!--div class="signature">
@@ -89,4 +96,6 @@
 </html>
 
   </body>
+  <script src="script.js" charset="utf-8"></script>
+
 </html>
