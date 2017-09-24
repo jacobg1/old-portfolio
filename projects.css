@@ -28,11 +28,14 @@
   width: 75%;
   border: 2px solid black;
   margin: 0 auto;
+
 }
 
 #projectsContainerTwo {
-  height: 350px;
-  display: none;
+  height: 500px;
+  width: 75%;
+  border: 2px solid black;
+  margin: 0 auto;
 }
 
 .projects {

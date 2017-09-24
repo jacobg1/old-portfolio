@@ -1,9 +1,33 @@
-console.log('hello world');
+console.log('hello world')
+var counter = 2
+var first = document.getElementById('projectsContainerOne')
+var second = document.getElementById('projectsContainerTwo')
+second.style.display = 'none'
 
 function nextProject () {
-  console.log('next');
-  let counter = 1
-  let first = document.getElementById('projectsContainerOne')
-  let second = document.getElementById('projectsContainerTwo')
-  console.log(counter, first, second);
+  switch (counter) {
+    case 1:
+      break
+    case 2:
+      counter++
+      first.style.display = 'none'
+      second.style.display = 'block'
+      break
+    default:
+
+  }
+}
+function prevProject () {
+  switch (counter) {
+    case 2:
+      break
+    case 3:
+      first.style.display = 'block'
+      second.style.display = 'none'
+      counter--
+      break
+    default:
+
+  }
+  console.log(counter)
 }
