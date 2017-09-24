@@ -4,9 +4,11 @@ console.log(counter)
 var first = document.getElementById('projectsContainerOne')
 var second = document.getElementById('projectsContainerTwo')
 var third = document.getElementById('projectsContainerThree')
+var fourth = document.getElementById('projectsContainerFour')
 
 second.style.display = 'none'
 third.style.display = 'none'
+fourth.style.display = 'none'
 
 function nextProject () {
   switch (counter) {
@@ -23,6 +25,14 @@ function nextProject () {
       second.style.display = 'none'
       third.style.display = 'block'
       break
+      case 4:
+      counter++
+      first.style.display = 'none'
+      second.style.display = 'none'
+      third.style.display = 'none'
+      fourth.style.display = 'block'
+
+        break;
     default:
   }
   console.log(counter)
@@ -43,6 +53,13 @@ function prevProject () {
       third.style.display = 'none'
       counter--
       break
+      case 5:
+      first.style.display = 'none'
+      second.style.display = 'none'
+      fourth.style.display = 'none'
+      third.style.display = 'block'
+      counter--
+        break;
     default:
   }
   console.log(counter)
