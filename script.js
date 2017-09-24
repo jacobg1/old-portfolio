@@ -1,6 +1,4 @@
 var counter = 2
-console.log(counter)
-
 var first = document.getElementById('projectsContainerOne')
 var second = document.getElementById('projectsContainerTwo')
 var third = document.getElementById('projectsContainerThree')
@@ -25,17 +23,15 @@ function nextProject () {
       second.style.display = 'none'
       third.style.display = 'block'
       break
-      case 4:
+    case 4:
       counter++
       first.style.display = 'none'
       second.style.display = 'none'
       third.style.display = 'none'
       fourth.style.display = 'block'
-
-        break;
+      break
     default:
   }
-  console.log(counter)
 }
 
 function prevProject () {
@@ -53,14 +49,13 @@ function prevProject () {
       third.style.display = 'none'
       counter--
       break
-      case 5:
+    case 5:
       first.style.display = 'none'
       second.style.display = 'none'
       fourth.style.display = 'none'
       third.style.display = 'block'
       counter--
-        break;
+      break
     default:
   }
-  console.log(counter)
 }
