@@ -9,6 +9,7 @@
 .mainProjectsContainer {
   margin-top: 20px;
 }
+
 .rightArrow {
   height: 40px;
   width: 40px;
@@ -16,6 +17,7 @@
   margin-top: 30%;
   font-size: 60px;
 }
+
 .leftArrow {
   height: 40px;
   width: 40px;
@@ -23,12 +25,12 @@
   margin-top: 30%;
   font-size: 60px;
 }
+
 #projectsContainerOne {
   height: 500px;
   width: 75%;
   border: 2px solid black;
   margin: 0 auto;
-
 }
 
 #projectsContainerTwo {
@@ -38,6 +40,12 @@
   margin: 0 auto;
 }
 
+#projectsContainerThree {
+  height: 500px;
+  width: 75%;
+  border: 2px solid black;
+  margin: 0 auto;
+}
 .projects {
   background-size: cover;
   margin: auto;
