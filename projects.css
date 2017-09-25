@@ -95,11 +95,7 @@ p.fa {
   width: 90%;
   margin: 10px auto;
 }
-.projectSkills  {
-  /*height: 70px;
-  width: 80px;
-  background-color: white;
-  display: inline-block;*/
+.projectSkillsOne, .projectSkillsTwo, .projectSkillsThree, .projectSkillsFour  {
   flex: 1 0 20%;
   margin: 5px;
   height: 70px;
@@ -107,7 +103,16 @@ p.fa {
   background-color: #fb7776;
   box-shadow: 3px 2px 2px black;
 }
-
+.projectSkillsTwo {
+  background-color: #3399ff;
+}
+.projectSkillsThree {
+  background-color: #366fee;
+}
+.projectSkillsFour {
+  background-color: #17292b;
+background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
+}
 .projectSkillsTags {
   height: 100%;
   font-family: 'Baloo Bhaijaan', cursive;
