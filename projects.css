@@ -66,8 +66,8 @@
 
 }
 
-.fa-guthub {
-  font-family: 'Baloo Bhaijaan', cursive;
+.fa-github {
+  /*font-family: 'Baloo Bhaijaan', cursive;*/
 
 
 }
@@ -83,10 +83,17 @@ span {
   margin-left: 43px;
 }
 p.fa {
+  margin-left: 155px;
+}
+p.fa-github, p.fa-globe {
   margin-bottom: 10px;
-  display: block;
+  display: inline-block;
   color: #eeeeff;
-  font-size: 25px;
+  font-size: 28px;
+
+}
+p.fa-globe {
+  font-size: 27px;
 }
 .projectSkillsContainer {
   display: flex;
@@ -98,7 +105,7 @@ p.fa {
 .projectSkillsOne, .projectSkillsTwo, .projectSkillsThree, .projectSkillsFour  {
   flex: 1 0 20%;
   margin: 5px;
-  height: 33px;
+  height: 38px;
   width: 80px;
   background-color: #fb7776;
   box-shadow: 3px 2px 2px black;
@@ -116,16 +123,14 @@ background-image: url("https://www.transparenttextures.com/patterns/axiom-patter
 .projectSkillsTags {
   height: 100%;
   font-family: 'Baloo Bhaijaan', cursive;
-  font-size: 18px;
+  font-size: 20px;
   width: 100%;
   color: #eeeeff;
   text-align: center;
   padding-bottom: 1px;
 }
-.listMainContainer {
-  height: 300px;
-  width: 80%;
-  margin: 0 0 0 0;
+.gitHubLinkContainer {
+  display: inline-block;
 }
 
 .gitHubLink {
