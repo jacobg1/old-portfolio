@@ -98,7 +98,7 @@ p.fa {
 .projectSkillsOne, .projectSkillsTwo, .projectSkillsThree, .projectSkillsFour  {
   flex: 1 0 20%;
   margin: 5px;
-  height: 70px;
+  height: 33px;
   width: 80px;
   background-color: #fb7776;
   box-shadow: 3px 2px 2px black;
@@ -119,9 +119,8 @@ background-image: url("https://www.transparenttextures.com/patterns/axiom-patter
   font-size: 18px;
   width: 100%;
   color: #eeeeff;
-  align-self: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  text-align: center;
+  padding-bottom: 1px;
 }
 .listMainContainer {
   height: 300px;
