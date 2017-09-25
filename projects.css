@@ -44,14 +44,14 @@
   -webkit-box-shadow: 0px 4px 4px 1px black;
   box-shadow: 4px 6px 6px 1px black;*/
 }
-
-.projects:hover {
-  -moz-box-shadow:    0px 3px 3px 3px black;
-  -webkit-box-shadow: 0px 3px 3px 3px black;
-  box-shadow:         0px 3px 3px 3px black;
+.projectBanner {
+  box-shadow: 3px 2px 2px black;
+  height: 100%;
+  width: 100%;
 }
 
-.rightArrow {
+
+.rightArrow, .leftArrow {
   height: 5%;
   width: 5%;
   color: #eeeeff;
@@ -61,13 +61,9 @@
 }
 
 .leftArrow {
-  color: #eeeeff;
 
-  height: 5%;
-  width: 5%;
   float: left;
-  margin-top: 30%;
-  font-size: 60px;
+
 }
 
 .fa-guthub {
@@ -143,30 +139,10 @@ p.fa {
   margin: 0 auto;
 }
 
-.useTagsContainer {
-  height: 40px;
-  width: 190px;
-  float: left;
-  display: inline-block;
-  /*padding-right: 143px;*/
-}
-
-.useTags {
-  margin: 0 0 0 0;
-  font-size: 22px;
-  color: #eeeeff;
-  font-family: 'Baloo Bhaijaan', cursive;
-  /*font-family: 'Black Ops One', cursive;*/
-}
 
 .resumeLink {
   font-size: 29px;
   margin-top: 15px;
   margin-bottom: -20px;
   font-family: 'Baloo Bhaijaan', cursive;
-}
-
-img {
-  height: 100%;
-  width: 100%;
 }
