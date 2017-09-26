@@ -135,15 +135,16 @@ span {
   margin-left: 43px;
 }
 
-p.fa {
+/*p.fa {
   margin-left: 155px;
-}
+}*/
 
 p.fa-github, p.fa-globe {
   margin-bottom: 10px;
   display: inline-block;
   color: #eeeeff;
   font-size: 28px;
+  padding-left: 152px;
 }
 
 p.fa-globe {
