@@ -5,7 +5,15 @@
   /*border: 2px solid black;*/
   margin: 0 auto;
 }
-
+#projectsContainerOne .tags {
+  margin-top: 3px;
+}
+#projectsContainerOne .techs {
+  margin-top: 3px;
+}
+#projectsContainerOne .fa-gitgub, #projectsContainerOne .fa-globe {
+  margin-top: 20px;
+}
 #projectsContainerTwo {
   height: 500px;
   width: 75%;
@@ -16,7 +24,9 @@
 #projectsContainerTwo .tags {
   margin-bottom: 30px;
 }
-
+#projectsContainerTwo .tags {
+  margin-bottom: 30px;
+}
 #projectsContainerThree {
   height: 500px;
   width: 75%;
