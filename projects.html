@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nova+Mono" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
@@ -46,9 +47,8 @@
         <p class='tags'>
           An internet radio station that plays live concert recordings for a given band and year.  Once users create their station
           CrunchFM makes a call to <a href="http://archive.org" target="_blank">archive.org's</a> API
-          and plays random live recordings for the given band and year.  Users can change their station at any time to create
-          a unique listening experience.  As a user's station plays, CrunchFM keeps track of all the songs that have been played in that session
-          in a playlist. Users can then replay songs with the click of a button.  Built in React with HTML, CSS and JavaScript.
+          and plays random live recordings based on the user's input.  Users can change their station at any time to create
+          a unique listening experience.  As a user's station plays, CrunchFM creates a dynamic playlist of all the songs that have been listened to in that session. Users can then replay songs with the click of a button.  Built in React with HTML, CSS and JavaScript.
         </p>
 
         <div class="gitHubLinkContainer">
@@ -86,9 +86,10 @@
 
     <div class="projects">
       <a href="https://jacobg1.github.io/real_memes/" target="_blank"><img class="projectBanner" src="img/real_memes2.png" alt=""></a>
-        <p class="tags">Real memes! Created with AngularJS and Ruby on Rails.
-          Users can choose from a list of memes or create a randomly generated meme.  Comes fully
-          equiped with random cat pictures and funny puns.
+        <p class="tags">Real memes! A meme generator that allows users to create their own custom memes.
+          Users can choose from a list of memes, create a randomly generated meme, or a randomly generate cat picture.  Users can create and edit their own custom text or,
+          If a user can't think of anything funny to say, they can generate and insert a randomly selected pun. Front end built with AngularJS, backend API built with Ruby on Rails.
+          API's used: <a href="https://icanhazdadjoke.com/" target="_blank">puns</a>, <a href="https://random.cat/meow" target="_blank">cats</a>, <a href="https://api.imgflip.com/get_memes" target="_blank">memes</a>
         </p>
 
         <a class="gitHubLink" href="https://github.com/jacobg1/real_memes" target="_blank"><p class="fa fa-github"><span>  GitHub Repo</span></p></a>
@@ -123,9 +124,10 @@
 
     <div class="projects">
       <a href="https://the-places-app.herokuapp.com/" target="_blank"><img class="projectBanner" src="img/placesplaces.png" alt=""></a>
-        <p class='tags'>A photo gallery for pictures of cool places and stuff,
-          built with Ruby on Rails, HTML and CSS. Includes user authentication, users can upload, tag, comment and vote on pictures
-          of whatever they want!
+        <p class='tags'>A photo gallery for pictures of cool places and stuff. Users can upload, tag, comment and vote on pictures
+         of whatever they want! Includes user authentication in order to limit deletion and edition on comments to their coresponding users.
+          Users can vote on comments and the top rated comment allways moves to the top.
+          Built with Ruby on Rails, HTML and CSS.
         </p>
 
         <a class="gitHubLink" href="https://github.com/jacobg1/places" target="_blank"><p class="fa fa-github"><span>  GitHub Repo</span></p></a>
@@ -156,8 +158,9 @@
 
     <div class="projects">
       <a href="https://jacobg1.github.io/Simon-Says/" target="_blank"><img class="projectBanner" src="img/simonsays7.png" alt=""></a>
-        <p class="tags">A simple simon says game created with JavaScript, HTML and CSS. Players must match
-          patterns of increasing complexity and length.  Make it to level five and win!
+        <p class="tags">A simple simon says game. Players must match patterns of increasing complexity and length. If a player makes an incorrect choice, they game starts over.
+          Make it to level five and win!  Includes sound on / off modes.
+          Created with object oriented JavaScript, HTML and CSS.
         </p>
 
         <a class="gitHubLink" href="https://github.com/jacobg1/Simon-Says" target="_blank"><p class="fa fa-github"><span>  GitHub Repo</span></p></a>
