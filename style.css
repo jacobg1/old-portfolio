@@ -66,6 +66,9 @@ a:hover {
   margin-top: -4px;
   margin-bottom: -3px;
   font-family: 'Baloo Bhaijaan', cursive;
+
+
+
 }
 
 .backLink {
@@ -127,12 +130,10 @@ p {
 
 .brand {
   /*margin-top: 0;*/
-  font-size: 22px;
+  font-size: 25px;
   color: #eeeeff;
   font-family: 'Baloo Bhaijaan', cursive;
-  /*font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 700;*/
-  /*font-family: 'Black Ops One', cursive;*/
+
 }
 
 .aboutMeContainer {

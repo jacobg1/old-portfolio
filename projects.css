@@ -5,7 +5,15 @@
   /*border: 2px solid black;*/
   margin: 0 auto;
 }
-
+#projectsContainerOne .tags {
+  margin-top: 3px;
+}
+#projectsContainerOne .techs {
+  margin-top: 0;
+}
+#projectsContainerOne .fa-gitgub, #projectsContainerOne .fa-globe {
+  margin-top: 20px;
+}
 #projectsContainerTwo {
   height: 500px;
   width: 75%;
@@ -13,19 +21,27 @@
   margin: 0 auto;
 }
 
+
 #projectsContainerTwo .tags {
   margin-bottom: 30px;
+  margin-top: 7px;
 }
 
+#projectsContainerTwo .techs {
+  margin-top: 15px;
+}
 #projectsContainerThree {
   height: 500px;
   width: 75%;
   /*border: 2px solid black;*/
   margin: 0 auto;
 }
-
+#projectsContainerThree .fa-github, #projectsContainerThree .fa-globe {
+  margin-top: 20px;
+}
 #projectsContainerThree .tags {
   margin-bottom: 30px;
+  margin-top: 7px;
 }
 
 #projectsContainerThree .techs {
@@ -41,12 +57,15 @@
 
 #projectsContainerFour .tags {
   margin-bottom: 35px;
+  margin-top: 7px;
 }
 
 #projectsContainerFour .techs {
-  margin-top: 65px;
+  margin-top: 55px;
 }
-
+#projectsContainerFour .fa-github, #projectsContainerFour .fa-globe {
+  margin-top: 30px;
+}
 .mainProjectsContainer {
   margin-top: 20px;
   width: 100%;
@@ -116,15 +135,16 @@ span {
   margin-left: 43px;
 }
 
-p.fa {
+/*p.fa {
   margin-left: 155px;
-}
+}*/
 
 p.fa-github, p.fa-globe {
   margin-bottom: 10px;
   display: inline-block;
   color: #eeeeff;
   font-size: 28px;
+  padding-left: 152px;
 }
 
 p.fa-globe {
