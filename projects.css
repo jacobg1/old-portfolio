@@ -1,52 +1,167 @@
 
-
-
-
-
-.tags {
-  margin-top: 19px;
-  font-size: 22px;
-  font-family: 'Baloo Bhaijaan', cursive;
-
-  /*font-family: 'Black Ops One', cursive;*/
+#projectsContainerOne {
+  height: 500px;
+  width: 75%;
+  /*border: 2px solid black;*/
+  margin: 0 auto;
 }
+
+#projectsContainerTwo {
+  height: 500px;
+  width: 75%;
+  /*border: 2px solid black;*/
+  margin: 0 auto;
+}
+
+#projectsContainerThree {
+  height: 500px;
+  width: 75%;
+  /*border: 2px solid black;*/
+  margin: 0 auto;
+}
+
+#projectsContainerFour {
+  height: 500px;
+  width: 75%;
+  /*border: 2px solid black;*/
+  margin: 0 auto;
+}
+
 .mainProjectsContainer {
   margin-top: 20px;
 }
-.projectsContainer {
-  height: 350px;
-}
+
 .projects {
   background-size: cover;
   margin: auto;
   justify-content: center;
   /*height: 75%;
-
   width: 75%;*/
-  height: 140px;
-  width: 68%;
-
+  height: 120px;
+  width: 89%;
   /*border: 3px solid white;*/
   /*-moz-box-shadow:    0px 4px 4px 1px black;
   -webkit-box-shadow: 0px 4px 4px 1px black;
   box-shadow: 4px 6px 6px 1px black;*/
+}
+.projectBanner {
+  box-shadow: 3px 2px 2px black;
+  height: 100%;
+  width: 100%;
+}
+
+
+.rightArrow, .leftArrow {
+  height: 5%;
+  width: 5%;
+  color: #eeeeff;
+  float: right;
+  margin-top: 30%;
+  font-size: 60px;
+}
+
+.leftArrow {
+
+  float: left;
 
 }
-.projects:hover {
-  -moz-box-shadow:    0px 3px 3px 3px black;
-  -webkit-box-shadow: 0px 3px 3px 3px black;
-  box-shadow:         0px 3px 3px 3px black;
+.tags {
+  margin-top: 28px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  color: #eeeeff;
+  font-family: 'Roboto Condensed', sans-serif;
+
+  /*font-family: 'Baloo Bhaijaan', cursive;*/
+  /*font-family: 'Black Ops One', cursive;*/
 }
+.fa-github {
+  /*font-family: 'Baloo Bhaijaan', cursive;*/
+
+
+}
+span {
+  font-family: 'Baloo Bhaijaan', cursive;
+  font-size: 20px;
+}
+.techs {
+  color: #eeeeff;
+  text-align: left;
+  font-family: 'Baloo Bhaijaan', cursive;
+  font-size: 20px;
+  margin-left: 43px;
+}
+p.fa {
+  margin-left: 155px;
+}
+p.fa-github, p.fa-globe {
+  margin-bottom: 10px;
+  display: inline-block;
+  color: #eeeeff;
+  font-size: 28px;
+
+}
+p.fa-globe {
+  font-size: 27px;
+}
+.projectSkillsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  /*height: 275px;*/
+  width: 90%;
+  margin: -12px auto;
+}
+.projectSkillsOne, .projectSkillsTwo, .projectSkillsThree, .projectSkillsFour  {
+  flex: 1 0 20%;
+  margin: 5px;
+  height: 38px;
+  width: 80px;
+  background-color: #fb7776;
+  box-shadow: 3px 2px 2px black;
+}
+.projectSkillsTwo {
+  background-color: #3399ff;
+}
+.projectSkillsThree {
+  background-color: #366fee;
+}
+.projectSkillsFour {
+  background-color: #17292b;
+background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
+}
+.projectSkillsTags {
+  height: 100%;
+  font-family: 'Baloo Bhaijaan', cursive;
+  font-size: 20px;
+  width: 100%;
+  color: #eeeeff;
+  text-align: center;
+  padding-bottom: 1px;
+}
+.gitHubLinkContainer {
+  display: inline-block;
+}
+
+.gitHubLink {
+  font-size: 18px;
+
+}
+.gitHubLink:hover {
+  text-decoration: none;
+
+}
+.gitHubContainer {
+  height: 110px;
+  width: 110px;
+  /*display: inline-block;*/
+  margin: 0 auto;
+}
+
 
 .resumeLink {
   font-size: 29px;
-  margin-top: 37px;
-  margin-bottom: 5px;
+  margin-top: 15px;
+  margin-bottom: -9px;
   font-family: 'Baloo Bhaijaan', cursive;
-
-
-}
-img {
-  height: 100%;
-  width: 100%;
 }
