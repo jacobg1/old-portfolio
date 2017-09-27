@@ -9,7 +9,7 @@
   margin-top: 3px;
 }
 #projectsContainerOne .techs {
-  margin-top: 0;
+  margin-top: -3px;
 }
 #projectsContainerOne .fa-gitgub, #projectsContainerOne .fa-globe {
   margin-top: 20px;
@@ -28,7 +28,7 @@
 }
 
 #projectsContainerTwo .techs {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 #projectsContainerThree {
   height: 500px;
@@ -45,7 +45,7 @@
 }
 
 #projectsContainerThree .techs {
-  margin-top: 35px;
+  margin-top: 29px;
 }
 
 #projectsContainerFour {
@@ -56,7 +56,7 @@
 }
 
 #projectsContainerFour .tags {
-  margin-bottom: 35px;
+  margin-bottom: 30px;
   margin-top: 7px;
 }
 
@@ -96,7 +96,7 @@
   width: 5%;
   color: #eeeeff;
   float: right;
-  margin-top: 30%;
+  margin-top: 37%;
   font-size: 60px;
 }
 
