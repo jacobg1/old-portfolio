@@ -282,7 +282,7 @@ footer {
   -webkit-transform: rotate(180deg); /* Safari */
   transform: rotate(180deg); /* Standard syntax */
   right: -188px;
-  bottom: -487px;
+  bottom: -488px;
   position: fixed;
   width: 0;
   height: 0;
@@ -307,7 +307,7 @@ background-color: blue;
   -ms-transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
-  left: -64px;
+  left: -60px;
   bottom: 24%;
 
   border-top: 350px solid transparent;
@@ -321,7 +321,7 @@ background-color: blue;
   /*-ms-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);*/
-  right: -64px;
+  right: -60px;
   bottom: 24%;
   border-top: 350px solid transparent;
   border-bottom: 350px solid transparent;
@@ -366,7 +366,7 @@ h2 {
   display: inline-block;*/
   flex: 1 0 20%;
   margin: 5px;
-  height: 70px;
+  height: 35px;
   width: 80px;
   background-color: #1690bf;
   /*background-color: #304a84;*/
@@ -380,6 +380,6 @@ h2 {
   width: 100%;
   color: white;
   align-self: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  /*padding-top: 20px;
+  padding-bottom: 20px;*/
 }

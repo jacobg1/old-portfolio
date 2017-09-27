@@ -113,9 +113,7 @@
   color: #eeeeff;
   width: 100%;
   font-family: 'Mukta', sans-serif;
-  /*font-family: 'Roboto Condensed', sans-serif;*/
-  /*font-family: 'Baloo Bhaijaan', cursive;*/
-  /*font-family: 'Black Ops One', cursive;*/
+
 }
 
 .fa-github {
@@ -123,14 +121,18 @@
 }
 
 span {
-  font-family: 'Baloo Bhaijaan', cursive;
+  /*font-family: 'Baloo Bhaijaan', cursive;*/
+  font-family: 'Mukta', sans-serif;
+
   font-size: 20px;
 }
 
 .techs {
   color: #eeeeff;
   text-align: left;
-  font-family: 'Baloo Bhaijaan', cursive;
+  /*font-family: 'Baloo Bhaijaan', cursive;*/
+  font-family: 'Mukta', sans-serif;
+
   font-size: 20px;
   margin-left: 43px;
 }
@@ -199,7 +201,9 @@ p.fa-globe {
 
 .projectSkillsTags {
   height: 100%;
-  font-family: 'Baloo Bhaijaan', cursive;
+  /*font-family: 'Baloo Bhaijaan', cursive;*/
+  font-family: 'Mukta', sans-serif;
+
   font-size: 20px;
   width: 100%;
   text-align: center;
