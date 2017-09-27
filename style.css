@@ -24,8 +24,8 @@ body {
   background-color: #475167;
   /*background-color: #335c80;*/
   /*background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");*/
-  min-height: inherit;
-  min-width: 600px;
+  /*min-height: inherit;
+  min-width: 600px;*/
   margin-top: 0px;
   /*background-image: url("https://www.transparenttextures.com/patterns/cubes.png");*/
   /*max-height: #335c80 650px;*/
@@ -382,4 +382,23 @@ h2 {
   align-self: center;
   /*padding-top: 20px;
   padding-bottom: 20px;*/
+}
+
+@media screen and (max-device-width: 700px) {
+    .jacob {
+      margin-top: 40px;
+      font-size: 100px;
+    }
+    .developer {
+      font-size: 100px;
+    }
+    .tags {
+      font-size: 30px;
+    }
+    .brand {
+      font-size: 34px;
+    }
+    /*.leftText, .rightText, .rightBox, .leftBox, .secondRightBox, .thirdLeftBox {
+      display: none;
+    }*/
 }
